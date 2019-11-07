@@ -12,17 +12,12 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-def speak_to_grandma
+def speak_to_grandma(phrase)
  phrase = "I LOVE YOU GRANDMA!"
- greeting = "Hi!"
- greeting_two = "Hi Nana, how are you?"
- food_question = "WHAT DID YOU EAT TODAY?"
- confused_question = "WHAT?"
- if phrase = "I LOVE YOU GRANDMA!"
+
+ if phrase == "I LOVE YOU GRANDMA!"
   "I LOVE YOU TOO PUMPKIN!"
-  if greeting 
-    "HUH?! SPEAK UP, SONNY!"
-    
+  if phrase == phrase.downcas
   end
 end
 end
